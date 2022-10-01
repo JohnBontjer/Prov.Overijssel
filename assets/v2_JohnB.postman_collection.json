@@ -1,0 +1,1560 @@
+{
+	"info": {
+		"_postman_id": "dafa1189-cabc-4422-8315-eda7a8287c65",
+		"name": "JohnB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1377698"
+	},
+	"item": [
+		{
+			"name": "NP",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/np/900018203",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"np",
+						"900018203"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NP Copy",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/np/900018203",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"np",
+						"900018203"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Zaak(type)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/np/900018203",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"np",
+						"900018203"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Zaak(type) Copy",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/np/900018203",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"np",
+						"900018203"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Zaak(type)",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "https://inproces.acceptatie.webbergen.nl//api/zaaktype/OV0756",
+							"protocol": "https",
+							"host": [
+								"inproces",
+								"acceptatie",
+								"webbergen",
+								"nl"
+							],
+							"path": [
+								"",
+								"api",
+								"zaaktype",
+								"OV0756"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "set-cookie",
+							"value": "JSESSIONID=534E2F9DD1CE07268B2F237FF74C68E1-n2; Path=/; Secure; HttpOnly"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "content-length",
+							"value": "39"
+						},
+						{
+							"key": "date",
+							"value": "Wed, 07 Sep 2022 14:35:01 GMT"
+						},
+						{
+							"key": "x-trace-id",
+							"value": "1662561298.494449.70985.62881"
+						},
+						{
+							"key": "strict-transport-security",
+							"value": "max-age=63072000"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 404,\n    \"success\": false\n}"
+				}
+			]
+		},
+		{
+			"name": "Create Zaak(type)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/np/900018203",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"np",
+						"900018203"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Medewerker",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/medewerker/search?search=[shortname]=%22johnb%22",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"medewerker",
+						"search"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "[shortname]=%22johnb%22"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Medewerker Copy",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/medewerker/search?search=[achternaam]=%22Bontjer%22",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"medewerker",
+						"search"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "[achternaam]=%22Bontjer%22"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Zaak-Betrokkene",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/zaak-betrokkene/search?search=[bronsleutel]=%272022-000115%27",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"zaak-betrokkene",
+						"search"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "[bronsleutel]=%272022-000115%27"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Zaak-Document",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/zaak-document/search?search=[bronsleutel]=%272022-000115%27",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"zaak-document",
+						"search"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "[bronsleutel]=%272022-000115%27"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Document",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/document/search?search=[sleutel]=%272022-05-036278%27",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"document",
+						"search"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "[sleutel]=%272022-05-036278%27"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get specifieke bijlage",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/data/overigstukintern/_XA8428760180BC68EAD2DE5B2CB6F71E/Test_1.pdf",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"data",
+						"overigstukintern",
+						"_XA8428760180BC68EAD2DE5B2CB6F71E",
+						"Test_1.pdf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "upload overigstukuitgaand",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							" pm.response.to.have.status(200);\r",
+							" const responseJson = pm.response.json();\r",
+							" pm.expect(responseJson.schema).to.eql(\"document\");\r",
+							" pm.expect(responseJson.sleutel).to.contains(\"D202\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "welkompatrick",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json;charset=utf-8",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "binary",
+							"type": "file",
+							"src": "banaan.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/document/upload/2022-05-036278",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"document",
+						"upload",
+						"2022-05-036278"
+					],
+					"query": [
+						{
+							"key": "betreft",
+							"value": "test2.pdf",
+							"disabled": true
+						},
+						{
+							"key": "documenttitel",
+							"value": "Dit is een test AddDocToZaak",
+							"disabled": true
+						},
+						{
+							"key": "bronschema",
+							"value": "zaak",
+							"disabled": true
+						},
+						{
+							"key": "contextschema",
+							"value": "zaak-document",
+							"disabled": true
+						},
+						{
+							"key": "doelschema",
+							"value": "document",
+							"disabled": true
+						},
+						{
+							"key": "docreaders",
+							"value": "gebruiker",
+							"disabled": true
+						},
+						{
+							"key": "bronsleutel",
+							"value": "2021-000119",
+							"disabled": true
+						},
+						{
+							"key": "bijlagenaam",
+							"value": "banaan.jpg,appel.jpg",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "upload doc",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							" pm.response.to.have.status(200);\r",
+							" const responseJson = pm.response.json();\r",
+							" pm.expect(responseJson.schema).to.eql(\"document\");\r",
+							" pm.expect(responseJson.sleutel).to.contains(\"D202\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json;charset=utf-8",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "binary",
+							"type": "file",
+							"src": "aanvraagparkeervergunn_output_210.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/aanvraagparkeervergunn/upload/2022-06-065124",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"aanvraagparkeervergunn",
+						"upload",
+						"2022-06-065124"
+					],
+					"query": [
+						{
+							"key": "betreft",
+							"value": "test2.pdf",
+							"disabled": true
+						},
+						{
+							"key": "documenttitel",
+							"value": "Dit is een test AddDocToZaak",
+							"disabled": true
+						},
+						{
+							"key": "bronschema",
+							"value": "zaak",
+							"disabled": true
+						},
+						{
+							"key": "contextschema",
+							"value": "zaak-document",
+							"disabled": true
+						},
+						{
+							"key": "doelschema",
+							"value": "document",
+							"disabled": true
+						},
+						{
+							"key": "docreaders",
+							"value": "gebruiker",
+							"disabled": true
+						},
+						{
+							"key": "bronsleutel",
+							"value": "2021-000119",
+							"disabled": true
+						},
+						{
+							"key": "bijlagenaam",
+							"value": "banaan.jpg,appel.jpg",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get specifieke bijlage Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/data/overigstukuitgaand/_XA8428760180BC6986197A740F71898B/banaan.jpg",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"data",
+						"overigstukuitgaand",
+						"_XA8428760180BC6986197A740F71898B",
+						"banaan.jpg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Zet signaal",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/zaak/signaal/2022-000133?signaal=alarm&signaaltekst=alarm",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"zaak",
+						"signaal",
+						"2022-000133"
+					],
+					"query": [
+						{
+							"key": "signaal",
+							"value": "alarm"
+						},
+						{
+							"key": "signaaltekst",
+							"value": "alarm"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update zaak resultaat",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/zaak/update/2022-000161?zaakresultaat=Afgebroken",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"zaak",
+						"update",
+						"2022-000161"
+					],
+					"query": [
+						{
+							"key": "zaakresultaat",
+							"value": "Afgebroken"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "volgende fase zaak",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/zaak/volgendefase/2022-000159",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"zaak",
+						"volgendefase",
+						"2022-000159"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vorige fase zaak",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/zaak/vorigefase/2022-000150",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"zaak",
+						"vorigefase",
+						"2022-000150"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "naar fase zaak",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/zaak/naarfase/2022-000159?zaakresultaat=Afgebroken&richting=vooruit&afhandelingsstatus=Afgehandeld&Eerstebehandelaar=Patrick Wesdorp",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"zaak",
+						"naarfase",
+						"2022-000159"
+					],
+					"query": [
+						{
+							"key": "zaakresultaat",
+							"value": "Afgebroken"
+						},
+						{
+							"key": "richting",
+							"value": "vooruit"
+						},
+						{
+							"key": "afhandelingsstatus",
+							"value": "Afgehandeld"
+						},
+						{
+							"key": "Eerstebehandelaar",
+							"value": "Patrick Wesdorp"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "naar fase zaak sluiten X",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/zaak/naarfase/2022-000157?zaakresultaat=Afgebroken&richting=vooruit&afhandelingsstatus=afgehandeld&Eerstebehandelaar=Patrick Wesdorp",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"zaak",
+						"naarfase",
+						"2022-000157"
+					],
+					"query": [
+						{
+							"key": "zaakresultaat",
+							"value": "Afgebroken"
+						},
+						{
+							"key": "richting",
+							"value": "vooruit"
+						},
+						{
+							"key": "afhandelingsstatus",
+							"value": "afgehandeld"
+						},
+						{
+							"key": "Eerstebehandelaar",
+							"value": "Patrick Wesdorp"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "zaak afhandelen",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/zaak/afhandelen/2022-000162?zaakresultaat=Afgebroken",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"zaak",
+						"afhandelen",
+						"2022-000162"
+					],
+					"query": [
+						{
+							"key": "zaakresultaat",
+							"value": "Afgebroken"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "10. Lees Zaak-Betrokkene",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/zaak-betrokkene?search=[bronsleutel]=\"2022-000183\"",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"zaak-betrokkene"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "[bronsleutel]=\"2022-000183\""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "10. Lees Medewerker",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/medewerker/_XA842876017E72792CDBB254176F411C",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"medewerker",
+						"_XA842876017E72792CDBB254176F411C"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "20. Lees Zaak-Document",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/zaak-document?search=[bronsleutel]=\"2022-000183\"",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"zaak-document"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "[bronsleutel]=\"2022-000183\""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "32. Lees Document nosearch",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/document/2022-06-042290",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"document",
+						"2022-06-042290"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "32. Lees Doelschema(doc) nosearch",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/aanvraagparkeervergunn/2022-06-042290",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"aanvraagparkeervergunn",
+						"2022-06-042290"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "40. Document ophalen",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/data/aanvraagparkeervergunn/_XA84297601819083463E3FD835ED8C37/aanvraagparkeervergunn_output_210.pdf",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"data",
+						"aanvraagparkeervergunn",
+						"_XA84297601819083463E3FD835ED8C37",
+						"aanvraagparkeervergunn_output_210.pdf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "60. Signal Partially signed",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/zaak/signaal/2022-000183?signaal=info&signaaltekst=Er is een gedeeltelijke ondertekening.",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"zaak",
+						"signaal",
+						"2022-000183"
+					],
+					"query": [
+						{
+							"key": "signaal",
+							"value": "info"
+						},
+						{
+							"key": "signaaltekst",
+							"value": "Er is een gedeeltelijke ondertekening."
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "60. Signal 2014-000376",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/zaak/signaal/2022-000183?signaal=info&signaaltekst=Er is een gedeeltelijke ondertekening.",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"zaak",
+						"signaal",
+						"2022-000183"
+					],
+					"query": [
+						{
+							"key": "signaal",
+							"value": "info"
+						},
+						{
+							"key": "signaaltekst",
+							"value": "Er is een gedeeltelijke ondertekening."
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "80. Zaak afhandelen",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/zaak/afhandelen/2022-000183?zaakresultaat=Afgewezen door Zynyo",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"zaak",
+						"afhandelen",
+						"2022-000183"
+					],
+					"query": [
+						{
+							"key": "zaakresultaat",
+							"value": "Afgewezen door Zynyo"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "90. Document definitief maken",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/aanvraagparkeervergunn/definitief/2022-06-042290",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"aanvraagparkeervergunn",
+						"definitief",
+						"2022-06-042290"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create GS Stuk",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "WelkomOverijssel",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "johnb",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "schema",
+						"value": "vergaderstukgs",
+						"type": "text"
+					},
+					{
+						"key": "zaaktypedocunidberekenen",
+						"value": "false",
+						"type": "text"
+					},
+					{
+						"key": "zaaktypedocunid",
+						"value": "_XA8408700175DD2AAAA122994998B229",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://inproces.acceptatie.webbergen.nl/api/vergaderstukgs/create/\n",
+					"protocol": "https",
+					"host": [
+						"inproces",
+						"acceptatie",
+						"webbergen",
+						"nl"
+					],
+					"path": [
+						"api",
+						"vergaderstukgs",
+						"create",
+						"\n"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
