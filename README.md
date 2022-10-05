@@ -39,6 +39,16 @@ Location: [Scripts]
 ---
 [Top]
 
+
+# Rx.Enterprise 
+
+
+``` 
+  "schema": "voorstelbehandelen",
+  "docunid": "_XA84287D0183A77419882E397B2AAE71",
+  "sleutel": "2022-000321",
+```
+
 # Analyse rapport 
 
 ## Interviews
@@ -48,7 +58,7 @@ Om meer kennis op te doen van de omgeving hebben verschillende interviews plaats
 | Rol                       | Wie              | Kennisgebied                                                                    | Datum      |
 | ------------------------- | ---------------- | ------------------------------------------------------------------------------- | ---------- |
 | Projectleider             | Daan van Manen   | Kennismaking                                                                    | 11-07-2022 |
-|                           | Eelco Herlé      | Project adviseur                                                                |            |
+|                           | Eelco Herlï¿½      | Project adviseur                                                                |            |
 | Microsoft 365 consultant  | Jamal Alla       |                                                                                 |            |
 |                           | Janneke          | Beide zijn functioneel verantwoordelijk<br>voor de inrichting van Microsoft 365 |            |
 | Accountmanager SSC ONS    | Sytze de boer    | Infra, Netwerken                                                                | 11-07-2022 |
@@ -56,7 +66,7 @@ Om meer kennis op te doen van de omgeving hebben verschillende interviews plaats
 | IT-architect              | Erik Zwaagman    |                                                                                 |            |
 | Netwerkspecialist SSC ONS | Patrick Pater    |                                                                                 |            |
 
-## Roxit enterprise
+##       Roxit enterprise
 
 | Rol           | Wie | Kennisgebied | Datum |
 | ------------- | --- | ------------ | ----- |
@@ -122,7 +132,7 @@ You can check how to [install visual studio code](https://www.enjoysharepoint.co
 [Top]
 
 ## Step #3: Install Yeoman and gulp
-Before installing the yeoman and gulp, check the “node” version and as well as the “npm” version of the SharePoint Framework (SPFx).
+Before installing the yeoman and gulp, check the ï¿½nodeï¿½ version and as well as the ï¿½npmï¿½ version of the SharePoint Framework (SPFx).
 
 To check the version of node and npm version, Run the below command in your Windows PowerShell.
 
