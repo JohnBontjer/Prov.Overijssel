@@ -1,5 +1,5 @@
 {
-    "id": "6ff88229-e93f-4cce-aa89-07bc0eedb50e",
+    "id": "7efef261-f65c-46ef-b979-605f7b6d877b",
     "brandColor": "#770BD6",
     "connectionReferences": {
         "shared_office365_1": {
@@ -27,27 +27,27 @@
                     "value": [
                         {
                             "Name": "gsbesluitvorming",
-                            "Display Name": "Besluitvorming GS"
+                            "DisplayName": "Besluitvorming GS"
                         },
                         {
                             "Name": "cmtbesluitvorming",
-                            "Display Name": "Besluitvorming CMT"
+                            "DisplayName": "Besluitvorming CMT"
                         },
                         {
                             "Name": "dobesluitvorming",
-                            "Display Name": "Besluitvorming DO"
+                            "DisplayName": "Besluitvorming DO"
                         },
                         {
                             "Name": "bobesluitvorming",
-                            "Display Name": "Besluitvorming BO"
+                            "DisplayName": "Besluitvorming BO"
                         },
                         {
                             "Name": "bamzaak",
-                            "Display Name": "Besluit bij Ambtelijk Mandaat"
+                            "DisplayName": "Besluit bij Ambtelijk Mandaat"
                         },
                         {
                             "Name": "statenvoorstelbehandelen",
-                            "Display Name": "Statenvoorstel behandelen"
+                            "DisplayName": "Statenvoorstel behandelen"
                         }
                     ]
                 }
