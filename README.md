@@ -42,6 +42,50 @@ Location: [Scripts]
 
 # Rx.Enterprise 
 
+https://inproces.acceptatie.webbergen.nl/api/document/upload/test.pdf?bronschema=voorstelbehandelen&bronsleutel=2022-000321&contextschema=zaak-document&veldnaam=imageupload1&documenttitel=Test%20van%20Rudy&documenttype=Bijlage 
+
+
+https://inproces.acceptatie.webbergen.nl/api/document/upload/test.pdf?
+  bronschema=voorstelbehandelen
+  bronsleutel=2022-000321
+  contextschema=zaak-document
+  veldnaam=imageupload1
+  documenttitel=Test%20van%20Rudy
+  documenttype=Bijlage 
+
+
+https://inproces.acceptatie.webbergen.nl/api/document/upload/@{variables('strBronSleutel')}
+
+
+
+
+
+    outputs('Get_files_(properties_only)')?['body/value']?['Title']
+
+    outputs('Get_files_(properties_only)')?['body']?['Title']
+
+    outputs('Get_files_(properties_only)')?['body']
+    outputs('Get_files_(properties_only)')?['body']?['value']
+
+    outputs('Get_file_content_using_path')?['body']['$content-type']
+
+If you want the first object, you can use the first(…) expression, e.g. to get the first returned item:
+
+    first(outputs('Get_items')?['body']?['value'])
+
+If you want the last one, you can use the last(…) expression, e.g. to get the last returned item:
+
+    last(outputs('Get_items')?['body']?['value'])
+
+Or you can use an index in the array, e.g. to get the 2nd item:
+
+    outputs('Get_items')?['body']?['value'][1]
+    
+    first(outputs('Get_items')?['body']?['value'])?['ApproverSingle'][0]?['Email']
+or
+    outputs('Get_items')?['body']?['value'][0]?['ApproverSingle'][0]?['Email']
+
+    first(outputs('Get_file_content_using_path')?['body']['$Name'])
 
 ``` 
   "schema": "voorstelbehandelen",
@@ -58,7 +102,7 @@ Om meer kennis op te doen van de omgeving hebben verschillende interviews plaats
 | Rol                       | Wie              | Kennisgebied                                                                    | Datum      |
 | ------------------------- | ---------------- | ------------------------------------------------------------------------------- | ---------- |
 | Projectleider             | Daan van Manen   | Kennismaking                                                                    | 11-07-2022 |
-|                           | Eelco Herl�      | Project adviseur                                                                |            |
+|                           | Eelco Herlé      | Project adviseur                                                                |            |
 | Microsoft 365 consultant  | Jamal Alla       |                                                                                 |            |
 |                           | Janneke          | Beide zijn functioneel verantwoordelijk<br>voor de inrichting van Microsoft 365 |            |
 | Accountmanager SSC ONS    | Sytze de boer    | Infra, Netwerken                                                                | 11-07-2022 |
@@ -66,7 +110,7 @@ Om meer kennis op te doen van de omgeving hebben verschillende interviews plaats
 | IT-architect              | Erik Zwaagman    |                                                                                 |            |
 | Netwerkspecialist SSC ONS | Patrick Pater    |                                                                                 |            |
 
-##       Roxit enterprise
+## Roxit enterprise
 
 | Rol           | Wie | Kennisgebied | Datum |
 | ------------- | --- | ------------ | ----- |
