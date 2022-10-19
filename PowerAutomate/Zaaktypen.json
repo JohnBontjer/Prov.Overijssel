@@ -1,0 +1,26 @@
+[
+    {
+      "Name": "gsbesluitvorming",
+      "DisplayName": "Besluitvorming GS"
+    },
+    {
+      "Name": "cmtbesluitvorming",
+      "DisplayName": "Besluitvorming CMT"
+    },
+    {
+      "Name": "dobesluitvorming",
+      "DisplayName": "Besluitvorming DO"
+    },
+    {
+      "Name": "bobesluitvorming",
+      "DisplayName": "Besluitvorming BO"
+    },
+    {
+      "Name": "bamzaak",
+      "DisplayName": "Besluit bij Ambtelijk Mandaat"
+    },
+    {
+      "Name": "statenvoorstelbehandelen",
+      "DisplayName": "Statenvoorstel behandelen"
+    }
+  ]
